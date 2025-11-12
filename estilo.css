@@ -1,0 +1,130 @@
+:root{
+    --fonteP: "Roboto", sans-serif;
+}
+
+
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #0f0f10;
+    color: rgb(243, 233, 215);
+    margin: 0 50px 0 100px;
+}
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: right;
+}
+
+
+
+header a{
+    text-decoration: none;
+    color: white;
+    margin: 25px 0px 25px 30px;
+}
+ 
+.headline{
+    margin-top: 60px;
+}
+
+.headline h1{
+    margin: 0;
+    font-size: 60px;
+}
+
+@media only screen and (max-width: 1000px) {
+    header{
+        justify-content: center;
+    }
+
+    header a{
+        margin: 25px 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .headline h1{
+        font-size: 50px;
+    }
+    
+}
+
+.botoes{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    padding: 15px 0;
+}
+
+.botoes button{
+    margin: 0 10px;
+    border: none;
+    background-color: #0f0f10;
+    color: white;
+    cursor: pointer;
+}
+
+.botoes h2{
+    position: absolute;
+    left: 0px;
+}
+
+.projetos{
+    display: flex;
+    margin: 15px 0;
+    flex-flow: row wrap;
+    width: 100%;
+    cursor: pointer;
+}
+
+.projetos div{
+    width: 320px;
+    height: 100px;
+    background-color: #171717;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin: 10px 20px 10px 0;
+    color: white;
+}
+
+.projetos div:active{
+    transform: translate(0, 2px);
+}
+
+.projetos div h3{
+    margin: 10px 0;
+}
+
+.projetos div span{
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*DESCRIÇAO PROJETOS */
+
+.descricao{
+    color: white;
+    margin: 40px 0;
+}
+
+.descricao p, li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    margin: 0;
+}
+
+.descricao a{
+    color: rgb(187, 174, 174);
+}
+
+#tecnologias{
+    margin-left: 20px;
+}
+
