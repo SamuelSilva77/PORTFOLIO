@@ -32,29 +32,35 @@
 
         <h2>Desenvolvido:</h2>
 
-        <button>Todos</button>
-        <button>Filtrar</button>
+        <button onclick="todos()">Todos</button>
+        <div class="dropdown">
+            <button onclick="dropdown()">Filtrar</button>
+            <div class="dropbtn">
+                <button onclick="js()">JavaScript</button>
+                <button onclick="tailwind()">Tailwind Css</button>
+            </div>
+        </div>
     </div>
 
     <div class="projetos">
 
-        <div onclick="contador = 0, clique()">
+        <div onclick="contador = 0, clique()"  id="projeto1">
             <h3>PROJETO 1</h3>
             <span>Landing Page consultoria</span>
         </div>
-        <div onclick="contador = 1, clique()">
+        <div onclick="contador = 1, clique()"  id="projeto2">
             <h3>PROJETO 2</h3>
             <span>Landing Page consultoria</span>
         </div>
-        <div onclick="contador = 2, clique()">
+        <div onclick="contador = 2, clique()" id="projeto3">
             <h3>PROJETO 3</h3>
             <span>Formulário simples</span>
         </div>
-        <div onclick="contador = 3, clique()">
+        <div onclick="contador = 3, clique()" id="projeto4">
             <h3>PROJETO 4</h3>
             <span>Lista de Tarefas</span>
         </div>
-        <div onclick="contador = 4, clique()">
+        <div onclick="contador = 4, clique()" id="projeto5">
             <h3>PROJETO 5</h3>
             <span>Serviço de Mudança</span>
         </div>
