@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #0f0f10;
+    color: rgb(243, 233, 215);
+    margin: 0 50px 0 100px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: right;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    margin: 25px 0px 25px 30px;
+}
+
+.content{
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.card{
+    width: 50%;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+
+@media (max-width: 1000px) {
+.card{
+    width: 70%;
+}
+}
+
+@media (max-width: 750px) {
+    .card{
+    width: 80%;
+    }
+}
+
+@media (max-width: 600px) {
+    .card{
+    width: 100%;
+    }
+}
+
+
+.card input{
+    width: 100%;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(50, 49, 49);
+    padding: 7px 5px;
+}
+
+
+button{
+    color: white;
+    border: 1px solid white;
+    width: 100%;
+    padding: 7px 0;
+    background-color: black;
+    cursor: pointer;
+}
+
+button:active{
+    transform: translate(0, 1px);
+    cursor: progress;
+}
+
