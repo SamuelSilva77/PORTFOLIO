@@ -63,7 +63,6 @@ function atualizar(projeto, descricao, tecnologia, site){
 
 function clique(){
     atualizar(info[contador].numero, info[contador].descricao, info[contador].tecnologia, info[contador].link)
-    console.log(contador)
 }
 
 
