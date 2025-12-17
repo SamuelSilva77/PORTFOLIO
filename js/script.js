@@ -47,9 +47,9 @@ const info = [
     {
     id: "projeto6",
     numero: "Projeto 6",
-    descricao: "EM BREVE",
+    descricao: "Site institucional de limpeza geral, desenvolvido para apresentar serviços de forma clara e objetiva, facilitar o contato com clientes e transmitir profissionalismo, confiança e credibilidade. O projeto conta com layout responsivo, design moderno e foco em boa experiência do usuário e conversão.",
     tecnologia: `<li>HTML</li> <li>TAILWIND CSS</li>`,
-    link: `<a href="">LINK DO PROJETO</a>`
+    link: `<a href="https://samuelsilva77.github.io/SERVICO-DE-LIMPEZA/" target="_blank">LINK DO PROJETO</a>`
 },
 ]
 
