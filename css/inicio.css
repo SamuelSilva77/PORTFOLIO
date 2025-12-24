@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #0b0b0b;
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: right;
+    margin: 0 50px 0 100px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    margin: 25px 0px 25px 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+    header{
+        justify-content: center;
+        margin: 0 50px 0 50px;
+    }
+
+    header a{
+        margin: 25px 10px;
+    }
+}
+
+/*DIV PAI*/
+
+.DivGrid{
+    height: 80vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 30px;
+    gap: 20px;
+}
+
+/*DIVS FILHOS*/
+
+
+    
+
+.apresent{
+    border: 1px solid white;
+    background-color: #171717;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.habilidades{
+    border: 1px solid white;
+    background-color: #171717;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+/*CARD DE CIMA*/
+
+.introducao{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #171717;
+    border-radius: 12px;
+    box-shadow: 0 0 3px gray;
+    border: 1px solid white;
+    padding: 40px;
+}
+
+
+.introducao p{
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+     margin-bottom: 10px;
+}
+
+.introducao h1{
+    font-size: 1.8rem;
+    margin: 20px 0;
+}
+
+.introducao span{
+    display: inline-block;
+    margin: 10px 0;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.introducao button{
+    display: inline-block;
+    margin: 20px 0;
+    padding: 12px 25px;
+    color: white;
+    background-color: rgb(34, 31, 31);
+    box-shadow: 1px 1px 10px black, 0 0 white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.introducao button:active{
+    transform: translate(0, 2px);
+}

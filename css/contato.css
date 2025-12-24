@@ -84,9 +84,12 @@ header a{
     width: 100%;
     border: 1px solid white;
     color: white;
-    background-color: rgb(50, 49, 49);
+    background-color: #202020;
+    box-shadow: 0 0 3px white;
+    border-radius: 3px;
     padding: 7px 5px;
     margin-bottom: 35px;
+    margin-top: 5px;
 }
 
 button{
