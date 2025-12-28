@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 body{
     margin: 0;
     font-family: 'Inter', sans-serif;
@@ -48,27 +50,6 @@ header a{
 
 /*DIVS FILHOS*/
 
-
-    
-
-.apresent{
-    border: 1px solid white;
-    background-color: #171717;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.06);
-    border: 1px solid rgba(255, 255, 255, 0.04);
-}
-
-.habilidades{
-    border: 1px solid white;
-    background-color: #171717;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.06);
-    border: 1px solid rgba(255, 255, 255, 0.04);
-}
-
-/*CARD DE CIMA*/
-
 .introducao{
     grid-column-start: 1;
     grid-column-end: 3;
@@ -79,6 +60,40 @@ header a{
     padding: 40px;
 }
 
+
+
+
+.habilidades{
+    border: 1px solid white;
+    background-color: #171717;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+
+@media only screen and (max-width: 992px) {
+    .DivGrid{
+    grid-template-rows: 1fr 1fr 1fr;
+    height: auto;
+    border: 1px solid white;
+}
+
+.apresent{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.habilidades{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+}
+
+
+
+
+/*CARD DE CIMA*/
 
 .introducao p{
     font-size: 1.8rem;
@@ -115,3 +130,33 @@ header a{
 .introducao button:active{
     transform: translate(0, 2px);
 }
+
+/*CARD BAIXO ESQUERDA*/
+
+.apresent{
+    border: 1px solid white;
+    background-color: #171717;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    padding: 15px 40px;
+}
+
+.apresent p{
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.apresent span{
+    text-align: right;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+}
+
+.Content{
+    padding: 50px 20px;
+}
+
+
+
