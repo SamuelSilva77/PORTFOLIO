@@ -16,6 +16,10 @@ body{
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 header{
     display: flex;
     justify-content: right;
@@ -79,12 +83,18 @@ header a{
     left: 0px;
 }
 
-.projetos{
+.projetos a{
     display: flex;
     margin: 15px 0;
     flex-flow: row wrap;
     width: 100%;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+.projetos a{
+    cursor: default;
+}
 }
 
 .projetos div{
