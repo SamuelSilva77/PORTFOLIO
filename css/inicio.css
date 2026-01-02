@@ -177,18 +177,20 @@ header a{
 .Linguagens{
     padding: 20px;
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
 }
 
 .MiniCards{
     display: flex;
-
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .MiniCards div{
     width: max-content;
-    padding: 5px 25px;
+    padding: 5px 19px;
     border-radius: 20px;
     margin: 15px 10px;
 }
