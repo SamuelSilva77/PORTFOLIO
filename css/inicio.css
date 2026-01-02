@@ -87,8 +87,6 @@ header a{
 
 }
 
-
-
 .apresent{
     grid-column-start: 1;
     grid-column-end: 3;
@@ -171,4 +169,42 @@ header a{
     margin-bottom: 10px;
 }
 
+.habilidades span{
+    display: inline-block;
+    margin: 5px 0;
+}
 
+.Linguagens{
+    padding: 20px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.MiniCards{
+    display: flex;
+
+}
+
+.MiniCards div{
+    width: max-content;
+    padding: 5px 25px;
+    border-radius: 20px;
+    margin: 15px 10px;
+}
+
+.skill {
+  background-color: #1f1f1f;
+  color: #eaeaea;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.skill:hover {
+  background-color: #252525;
+}
+
+.skillPrincipal {
+  background-color: #2a2212;
+  color: #f5c26b;
+  border: 1px solid rgba(245, 194, 107, 0.3);
+}
