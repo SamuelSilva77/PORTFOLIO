@@ -51,6 +51,13 @@ const info = [
     tecnologia: `<li>HTML</li> <li>TAILWIND CSS</li>`,
     link: `<a href="https://samuelsilva77.github.io/SERVICO-DE-LIMPEZA/" target="_blank">LINK DO PROJETO</a>`
 },
+    {
+    id: "projeto7",
+    numero: "Projeto 7",
+    descricao: "Projeto de painel administrativo para gerenciamento de usuários, desenvolvido com HTML, CSS e JavaScript puro, consumindo uma API REST para realizar operações completas de CRUD. A aplicação permite listar, cadastrar, editar e excluir usuários em tempo real através de requisições HTTP utilizando os métodos GET, POST, PUT/PATCH e DELETE.",
+    tecnologia: `<li>HTML</li> <li>TAILWIND CSS</li> <li>JAVASCRIPT</li>`,
+    link: `<a href="https://samuelsilva77.github.io/CRUD-USERS/" target="_blank">LINK DO PROJETO</a>`
+},
 ]
 
 
@@ -95,7 +102,7 @@ const js = () => {
 
     info.forEach((index) => {
         let filtro = index.tecnologia
-        if(filtro != "<li>HTML</li> <li>CSS</li> <li>JAVASCRIPT</li>"){
+        if(filtro != "<li>HTML</li> <li>CSS</li> <li>JAVASCRIPT</li>" && filtro != "<li>HTML</li> <li>TAILWIND CSS</li> <li>JAVASCRIPT</li>"){
             let id = document.getElementById(index.id)
             id.style.display = "none"
         }
