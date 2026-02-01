@@ -54,13 +54,6 @@ const info = [
     {
     id: "projeto7",
     numero: "Projeto 7",
-    descricao: "Projeto de painel administrativo para gerenciamento de usuários, desenvolvido com HTML, CSS e JavaScript puro, consumindo uma API REST para realizar operações completas de CRUD. A aplicação permite listar, cadastrar, editar e excluir usuários em tempo real através de requisições HTTP utilizando os métodos GET, POST, PUT/PATCH e DELETE.",
-    tecnologia: `<li>HTML</li> <li>TAILWIND CSS</li> <li>JAVASCRIPT</li>`,
-    link: `<a href="https://samuelsilva77.github.io/CRUD-USERS/" target="_blank">LINK DO PROJETO</a>`
-},
-    {
-    id: "projeto8",
-    numero: "Projeto 8",
     descricao: "Projeto desenvolvido em JavaScript puro, HTML e CSS com o objetivo de criar um painel interativo para acompanhamento de hábitos diários.",
     tecnologia: `<li>HTML</li> <li>CSS</li> <li>JAVASCRIPT</li>`,
     link: `<a href="https://samuelsilva77.github.io/PAINEL-DE-H-BITOS/" target="_blank">LINK DO PROJETO</a>`
