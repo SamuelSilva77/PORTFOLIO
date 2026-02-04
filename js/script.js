@@ -48,14 +48,14 @@ const info = [
     id: "projeto6",
     numero: "Projeto 6",
     descricao: "Site institucional de limpeza geral, desenvolvido para apresentar serviços de forma clara e objetiva, facilitar o contato com clientes e transmitir profissionalismo, confiança e credibilidade. O projeto conta com layout responsivo, design moderno e foco em boa experiência do usuário e conversão.",
-    tecnologia: `<li>HTML</li> <li>TAILWIND CSS</li>`,
+    tecnologia: "<li>HTML</li> <li>TAILWIND CSS</li>",
     link: `<a href="https://samuelsilva77.github.io/SERVICO-DE-LIMPEZA/" target="_blank">LINK DO PROJETO</a>`
 },
     {
     id: "projeto7",
     numero: "Projeto 7",
     descricao: "Projeto desenvolvido em JavaScript puro, HTML e CSS com o objetivo de criar um painel interativo para acompanhamento de hábitos diários.",
-    tecnologia: `<li>HTML</li> <li>CSS</li> <li>JAVASCRIPT</li>`,
+    tecnologia: "<li>HTML</li> <li>CSS</li> <li>JAVASCRIPT</li>",
     link: `<a href="https://samuelsilva77.github.io/PAINEL-DE-H-BITOS/" target="_blank">LINK DO PROJETO</a>`
 },
 ]
@@ -85,6 +85,7 @@ const dropdown = () => {
         dropbtn.style.display = "flex"
     }
 }
+
 
 
 const todos = () => {
