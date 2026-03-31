@@ -54,9 +54,9 @@ const info = [
     {
     id: "projeto7",
     numero: "Projeto 7",
-    descricao: "Projeto desenvolvido em JavaScript puro, HTML e CSS com o objetivo de criar um painel interativo para acompanhamento de hábitos diários.",
+    descricao: "Um painel visual de acompanhamento de hábitos que ajuda a monitorar sua consistência diária e progresso ao longo do tempo. O projeto apresenta uma interface simples e intuitiva onde o usuário pode registrar seus hábitos diários, visualizar sua evolução e manter o foco na construção de uma rotina mais produtiva.",
     tecnologia: `<li>HTML</li> <li>CSS</li> <li>JAVASCRIPT</li>`,
-    link: `<a href="https://samuelsilva77.github.io/PAINEL-DE-H-BITOS/" target="_blank">LINK DO PROJETO</a>`
+    link: `<a href="https://samuelsilva77.github.io/PAINEL-DE-PRODUTIVIDADE/" target="_blank">LINK DO PROJETO</a>`
 },
 ]
 
