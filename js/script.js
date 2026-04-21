@@ -58,6 +58,13 @@ const info = [
     tecnologia: `<li>HTML</li> <li>CSS</li> <li>JAVASCRIPT</li>`,
     link: `<a href="https://samuelsilva77.github.io/PAINEL-DE-PRODUTIVIDADE/" target="_blank">LINK DO PROJETO</a>`
 },
+    {
+    id: "projeto8",
+    numero: "Projeto 8",
+    descricao: "Aplicação CRUD com múltiplas páginas (listar, criar e editar), interface moderna e navegação intuitiva. Permite gerenciar produtos de forma dinâmica, utilizando estados e componentes reutilizáveis para organização e boa experiência do usuário.",
+    tecnologia: `<li>HTML</li> <li>TAILWIND CSS</li> <li>JAVASCRIPT</li>`,
+    link: `<a href="https://samuelsilva77.github.io/CRUD---GERENCIAMENTO-DE-PRODUTOS/" target="_blank">LINK DO PROJETO</a>`
+},
 ]
 
 
@@ -76,9 +83,15 @@ function clique(){
 
 //DROPDOWN
 
+let dropbtn = document.querySelector(".dropbtn")
+
 const dropdown = () => {
     let dropbtn = document.querySelector(".dropbtn")
-
+    
+    setTimeout(() => {
+        dropbtn.classList.toggle("animacao")
+    }, 50)
+    
     if(dropbtn.style.display == "flex"){
         dropbtn.style.display = "none"
     }else{

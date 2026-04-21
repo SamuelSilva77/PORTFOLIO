@@ -155,8 +155,13 @@ header a{
     margin: 5px 0;
     top: 15px;
     display: none;
+    opacity: 0;
     flex-flow: row wrap;
+    transition: 0.8s;
+}
 
+.animacao{
+    opacity: 1;
 }
 
 .dropbtn button{
