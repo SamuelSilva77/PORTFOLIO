@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Programador Front-End</title>
+
+    <!--LINKS-->
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div>
+            <p class="Dev">  &lt; Dev /&gt; </p>
+        </div>
+
+        <!--MAIS DE 770PX-->
+        <div class="maior">
+            <ul>
+                <li><a class="DestaqueHeader" href="">Início</a></li>
+                <li><a href="">Sobre</a></li>
+                <li><a href="">Projetos</a></li>
+                <li><a href="">Contatos</a></li>
+            </ul>
+        </div>
+
+        <!--BAIXO DE 770PX-->
+        <div class="menor">
+            <img src="img/menu.png" alt="" id="exibirOpçoes">
+
+            <div class="DivlistaMenor" id="DivlistaMenor">
+                <img src="img/close (1).png" alt="fechar" style="align-self: flex-end;" onclick="exibir()">
+                <ul id="listaMenor">
+                    <li><a class="DestaqueHeader" href="">Início</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Projetos</a></li>
+                    <li><a href="">Contatos</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="fundoHero">
+        </div>
+        <div class="heroContent">
+            <div class="herotxt">
+                <span class="cumprimento">Olá, eu sou</span>
+                <h2 class="meuNome">Samuel</h2>
+                <p class="profissao">Programador Front-End</p>
+                <span> Apaixonado por tecnologia e desenvolvimento web. Construindo projetos para aprender e evoluir todos os dias.</span>
+            </div>
+
+            <div class="heroButtons">
+                <button class="VerProjetos">Ver Projetos</button>
+                <button class="FaleComigo">Fale Comigo</button>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+</html>
