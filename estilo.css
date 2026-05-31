@@ -458,12 +458,13 @@ header a:hover::before {
 
 .contato{
   display: flex;
+  padding-bottom: 150px;
   justify-content: center;
   align-items: center;
   gap: 15px;
   flex-flow: column;
   margin-top: 100px;
-  height: 400px;
+  min-height: 400px;
   box-shadow: 0 2px 1px rgba(255, 255, 255, 0.158);
 }
 
@@ -480,7 +481,7 @@ header a:hover::before {
 }
 
 .redesSociais{
-  display: flex ;
+  display: flex;
   gap: 40px;
 }
 
@@ -509,7 +510,16 @@ header a:hover::before {
   src: url(img/githubSobreBranco.png);
 }
 
+@media only screen and (max-width: 700px) {
+  .redesSociais{
+    display: flex;
+    flex-flow: column;
+  }
 
+  .cardRede{
+      width: 250px; 
+  }
+}
 
 /*FOOTER*/
 
