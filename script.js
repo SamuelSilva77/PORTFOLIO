@@ -1,3 +1,6 @@
+//AOS
+AOS.init();
+
 let exibirOpçoes = document.getElementById("exibirOpçoes")
 
 let DivlistaMenor = document.getElementById("DivlistaMenor")
@@ -68,3 +71,49 @@ function criacao(){
 dados.forEach((item, index) => {
     criacao.apply(item)
 })
+
+
+//ALTERAR IMAGENS DA PARTE SOBRE
+let contadorGit = 0
+function AlterarGit(){
+    ++contadorGit
+    let img = document.querySelectorAll(".cardRede img")[0]
+
+    const arr = [ "img/githubSobreAzul.png", "img/githubSobreBranco.png"]
+
+    img.src = arr[contadorGit]
+ 
+    if(contadorGit == 1){
+        contadorGit = -1
+    }
+}
+
+let contadorLinkedin= 0
+function AlterarLinkedin(){
+    ++contadorLinkedin
+    let img = document.querySelectorAll(".cardRede img")[1]
+
+    const arr = [ "img/linkedinSobreAzul.png", "img/linkedinSobreBranco.png"]
+
+    img.src = arr[contadorLinkedin]
+ 
+    if(contadorLinkedin == 1){
+        contadorLinkedin = -1
+    }
+}
+
+let contadorEmail = 0
+function AlterarEmail(){
+    ++contadorEmail
+    let img = document.querySelectorAll(".cardRede img")[2]
+
+    const arr = [ "img/emailSobreAzul.png", "img/emailSobreBranco.png"]
+
+    img.src = arr[contadorEmail]
+ 
+    if(contadorEmail == 1){
+        contadorEmail = -1
+    }
+}
+
+
