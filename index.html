@@ -6,8 +6,12 @@
     <title>Portfólio | Programador Front-End</title>
 
     <!--LINKS-->
+    <link rel="shortcut icon" href="img/potfolio.png" type="image/x-icon">
     <link rel="stylesheet" href="estilo.css">
     <script src="script.js" defer></script>
+    
+    <!--AOS ANIMATE-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -18,10 +22,10 @@
         <!--MAIS DE 770PX-->
         <div class="maior">
             <ul>
-                <li><a class="DestaqueHeader" href="">Início</a></li>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Projetos</a></li>
-                <li><a href="">Contatos</a></li>
+                <li><a class="DestaqueHeader" href="#Inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contatos</a></li>
             </ul>
         </div>
 
@@ -32,20 +36,20 @@
             <div class="DivlistaMenor" id="DivlistaMenor">
                 <img src="img/close (1).png" alt="fechar" style="align-self: flex-end;" onclick="exibir()">
                 <ul id="listaMenor">
-                    <li><a class="DestaqueHeader" href="">Início</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Projetos</a></li>
-                    <li><a href="">Contatos</a></li>
+                    <li><a class="DestaqueHeader" href="#Inicio">Início</a></li>
+                    <li><a href="#sobre" >Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contatos</a></li>
                 </ul>
             </div>
 
         </div>
     </header>
 
-    <section class="hero">
+    <section class="hero" id="Inicio">
         <div class="fundoHero">
         </div>
-        <div class="heroContent">
+        <div class="heroContent" data-aos="fade-up">
             <div class="herotxt">
                 <span class="cumprimento">Olá, eu sou</span>
                 <h2 class="meuNome">Samuel</h2>
@@ -54,13 +58,13 @@
             </div>
 
             <div class="heroButtons">
-                <button class="VerProjetos">Ver Projetos</button>
-                <button class="FaleComigo">Fale Comigo</button>
+                <a href="#projetos" class="VerProjetos">Ver Projetos</a>
+                <a href="#contato" class="FaleComigo" id="sobre">Fale Comigo</a>
             </div>
         </div>
     </section>
 
-    <section class="sobre">
+    <section class="sobre" data-aos="fade-up">
         <h2>Sobre mim</h2>
         <div class="SobreContainer">
             <div class="MinhaImagem">
@@ -77,20 +81,53 @@
                     <button>Git</button>
                     <button>GitHub</button>
                     <button>Responsive Design</button>
-                    <button>APIs REST</button>
+                    <button id="projetos">APIs REST</button>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="secaoProjetos">
+    <section class="secaoProjetos" data-aos="fade-up">
         <h2>Meus Projetos</h2>
 
         <div class="containerProjetos" id="containerProjetos">
 
         </div>
     </section>
+    <div class="contato" id="contato" data-aos="fade-up">
+        <h2>Contato</h1>
+        <p>Quer conversar comigo? Entre em contato comigo através das redes abaixo.</p>
+        <br>
+        <div class="redesSociais">
+            <a href="https://github.com/SamuelSilva77">
+                <div class="cardRede" onmouseover="AlterarGit()" onmouseout="AlterarGit()">
+                    <img src="img/githubSobreAzul.png" alt="GitHub">
+                    <span>Github</span>
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/in/samuel-silva-b76520399/">
+                <div class="cardRede" onmouseover="AlterarLinkedin()" onmouseout="AlterarLinkedin()">
+                    <img src="img/linkedinSobreAzul.png" alt="Linkedin">
+                    <span>Linkedin</span>
+                </div>
+            </a>
+            <a href="mailto:Samuelpds77@gmail.com">
+            <div class="cardRede" onmouseover="AlterarEmail()" onmouseout="AlterarEmail()">
+                <img src="img/emailSobreAzul.png" alt="Email">
+                <span>Email</span>
+            </div>
+            </a>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br>
+    </div>
 
-    <br><br><br><br><br><br><br>
+    <footer>
+        <span>© 2025 Samuel P. Silva. Todos os direitos reservados.</span>
+    </footer>
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
 </html>

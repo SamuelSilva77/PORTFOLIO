@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
   font-family:
     system-ui,
@@ -209,7 +213,9 @@ header a:hover::before {
   font-size: 20px;
 }
 
-.heroButtons button {
+.heroButtons a {
+  display: inline-block;
+  text-decoration: none;
   padding: 17px 30px;
   border-radius: 23px;
   margin: 10px;
@@ -435,10 +441,81 @@ header a:hover::before {
 }
 
 
+@media only screen and (max-width: 1300px) {
+.containerProjetos {
+  justify-content: center;
+}
+}
 @media only screen and (max-width: 1070px) {
 .card {
   flex: 40%;
   min-width: 345px;
 }
+}
 
+
+/*CONTATO*/
+
+.contato{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-flow: column;
+  margin-top: 100px;
+  height: 400px;
+  box-shadow: 0 2px 1px rgba(255, 255, 255, 0.158);
+}
+
+.contato a{
+  text-decoration: none;
+  color: var(--CorSecundaria);
+}
+
+.contato h2{
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(67, 67, 201);
+  letter-spacing: 1px;
+}
+
+.redesSociais{
+  display: flex ;
+  gap: 40px;
+}
+
+.cardRede{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border-radius: 15px;
+  background-color: #16213e;
+  width: 150px;
+  height: 150px;
+  box-shadow: 0 0 2px var(--CorSecundaria);
+  transition: 0.3s;
+}
+
+.cardRede:hover{
+  transform: translate(0, -6px);
+  box-shadow:
+    0 0 10px var(--CorSecundaria),
+    0px 0 1px var(--CorSecundaria);
+}
+
+.cardRede:hover .cardRede img{
+  src: url(img/githubSobreBranco.png);
+}
+
+
+
+/*FOOTER*/
+
+footer{
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
