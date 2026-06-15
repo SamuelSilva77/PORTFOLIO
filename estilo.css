@@ -8,6 +8,11 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   font-family:
     system-ui,
@@ -21,7 +26,6 @@ body {
     "Open Sans",
     "Helvetica Neue",
     sans-serif;
-  height: 200vh;
   background-color: var(--CorPrincipal);
   color: var(--CorTexto);
 }
@@ -272,7 +276,7 @@ header a:hover::before {
   min-height: 280px;
   border-radius: 5px;
   border: 5px solid #413d3d;
-  background-image: url("https://media.licdn.com/dms/image/v2/D4E03AQGBhhh8Ms3jRg/profile-displayphoto-scale_200_200/B4EZsDPl4cIQAY-/0/1765285978406?e=1781136000&v=beta&t=zoyJhqDQf11GdomDmSLAH95EWV-P4qbsLtrYPTkFjZg");
+  background-image: url("img/minhaimg.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -387,6 +391,15 @@ header a:hover::before {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   transition: 0.2s ease-in-out;
+  background-image: url("https://mgx-backend-cdn.metadl.com/generate/images/1178818/2026-05-10/oiweuoaaagoq/project-placeholder-1.png");
+  height: 228px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagemProjeto img{
+  width: 70%;
 }
 
 .card:hover .imagemProjeto {
@@ -458,6 +471,7 @@ header a:hover::before {
 
 .contato{
   display: flex;
+  text-align: center;
   padding-bottom: 150px;
   justify-content: center;
   align-items: center;
